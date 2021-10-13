@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 const corsOptions = {
-  origin: ["http://localhost:8082", "https://nfteas.herokuapp.com/"],
+  origin: ["http://localhost:8082", "https://polar-wave-92600.herokuapp.com/"],
   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 app.use(cors(corsOptions));
